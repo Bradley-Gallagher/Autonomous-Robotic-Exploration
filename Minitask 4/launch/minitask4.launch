@@ -1,0 +1,4 @@
+<launch>
+	<node name="waypointnav" pkg="minitask4" type="waypointnav.py" output="screen"/>
+	<node name="occupation" pkg="minitask4" type="occgrid.py" output="screen"/>
+</launch>
