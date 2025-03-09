@@ -1,0 +1,5 @@
+<launch>
+ 	<node name="avoidobstacle" pkg="minitask2" type="AvoidObstacle.py" output="screen"/>
+	<node name="randommove" pkg="minitask2" type="RandomWalk.py" output="screen"/>
+	<node name="wallfollow" pkg="minitask2" type="RWallFollow.py" output="screen"/>
+</launch>
