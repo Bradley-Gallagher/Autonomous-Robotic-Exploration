@@ -1,0 +1,5 @@
+<launch>
+	<node name="follower" pkg="minitask3" type="follower.py" output="screen"/>
+	<node name="wander" pkg="minitask3" type="wander.py" output="screen"/>
+	<node name="avoidobstacle" pkg="minitask3" type="AvoidObstacle.py" output="screen"/>
+</launch>
